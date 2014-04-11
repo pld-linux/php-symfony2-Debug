@@ -3,18 +3,19 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Debug Component
 Name:		php-symfony2-Debug
-Version:	2.3.4
+Version:	2.4.3
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	a24d005d9aae72d98856da8f1b427e8f
+# Source0-md5:	c19241b429fc73d362edb68ddf40b312
 URL:		http://symfony.com/doc/current/components/debug.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
+Requires:	php(spl)
 Requires:	php-channel(pear.symfony.com)
 Requires:	php-pear >= 4:1.3.10
 BuildArch:	noarch
@@ -48,3 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{php_pear_dir}/Symfony/Component/Debug
 %{php_pear_dir}/Symfony/Component/Debug/*.php
 %{php_pear_dir}/Symfony/Component/Debug/Exception
+%{php_pear_dir}/Symfony/Component/Debug/FatalErrorHandler
