@@ -18,6 +18,8 @@ Requires:	php(core) >= %{php_min_version}
 Requires:	php(spl)
 Requires:	php-channel(pear.symfony.com)
 Requires:	php-pear >= 4:1.3.10
+Suggests:	php-symfony2-HttpFoundation
+Suggests:	php-symfony2-HttpKernel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
