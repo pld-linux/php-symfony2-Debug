@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Debug Component
 Name:		php-symfony2-Debug
-Version:	2.4.3
+Version:	2.4.4
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	c19241b429fc73d362edb68ddf40b312
+# Source0-md5:	09c349be0184834d8521d8b2fe6377ec
 URL:		http://symfony.com/doc/2.4/components/debug/index.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
