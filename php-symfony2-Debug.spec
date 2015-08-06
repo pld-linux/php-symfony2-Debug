@@ -28,6 +28,9 @@ The Debug Component provides tools to ease debugging PHP code.
 %prep
 %setup -q -n %{package}-%{version}
 
+# native extension. to be built from separate .spec
+rm -r Resources/ext
+
 %build
 phpab -n -e '*/Tests/*' -o autoloader.php .
 
