@@ -17,6 +17,7 @@ Requires:	php(core) >= %{php_min_version}
 Requires:	php(spl)
 Requires:	php-pear >= 4:1.3.10
 Requires:	php-psr-Log >= 1.0
+Suggests:	php(symfony_debug)
 Suggests:	php-symfony2-HttpFoundation
 Suggests:	php-symfony2-HttpKernel
 BuildArch:	noarch
