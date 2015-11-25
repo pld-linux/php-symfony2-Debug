@@ -11,11 +11,9 @@ Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{
 # Source0-md5:	7e7563dff4779f9e186696c1ddf6d068
 URL:		http://symfony.com/doc/2.7/components/debug/index.html
 BuildRequires:	phpab
-BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
 Requires:	php(spl)
-Requires:	php-pear >= 4:1.3.10
 Requires:	php-psr-Log >= 1.0
 Suggests:	php(symfony_debug)
 Suggests:	php-symfony2-HttpKernel >= 2.6.2
