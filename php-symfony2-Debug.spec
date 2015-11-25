@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Debug Component
 Name:		php-symfony2-Debug
-Version:	2.7.5
+Version:	2.7.7
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	2410de066d5a6e34f583fa0c28b46659
+# Source0-md5:	7e7563dff4779f9e186696c1ddf6d068
 URL:		http://symfony.com/doc/2.7/components/debug/index.html
 BuildRequires:	phpab
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -32,7 +32,7 @@ The Debug Component provides tools to ease debugging PHP code.
 rm -r Resources/ext
 
 %build
-phpab -n -e '*/Tests/*' -o autoloader.php .
+phpab -n -e '*/Tests/*' -o autoload.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
