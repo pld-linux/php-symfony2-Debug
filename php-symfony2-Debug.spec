@@ -14,6 +14,7 @@ BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
 Requires:	php(spl)
+Requires:	php-dirs >= 1.6
 Requires:	php-psr-Log >= 1.0
 Suggests:	php(symfony_debug)
 Suggests:	php-symfony2-HttpKernel >= 2.6.2
