@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Debug Component
 Name:		php-symfony2-Debug
-Version:	2.7.7
+Version:	2.7.8
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	7e7563dff4779f9e186696c1ddf6d068
+# Source0-md5:	5a9cf6a972c48886735db9ba4519ac67
 URL:		http://symfony.com/doc/2.7/components/debug/index.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
