@@ -2,13 +2,13 @@
 %define		php_min_version 5.3.9
 Summary:	Symfony2 Debug Component
 Name:		php-symfony2-Debug
-Version:	2.7.8
+Version:	2.8.52
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	5a9cf6a972c48886735db9ba4519ac67
-URL:		http://symfony.com/doc/2.7/components/debug/index.html
+# Source0-md5:	16fb0f2f219bc1301dd65f3220950e85
+URL:		https://symfony.com/doc/2.8/components/debug.htmlindex.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
